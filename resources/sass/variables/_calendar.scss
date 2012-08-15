@@ -1,0 +1,102 @@
+// Shared Colors
+$extensible-toolbar-button-color: 			$goalio-brown;
+$extensible-panel-border-color: 			$goalio-light-brown;
+$extensible-panel-inner-background-color:	lighten($goalio-brown, 10);
+
+
+//
+$extensible-cal-hd-color: 					darken($goalio-brown, 20);
+$extensible-cal-hd-background-color: 		transparent;
+$extensible-cal-hd-border-color: 			$goalio-light-brown;
+$extensible-cal-hd-border-separator-color:	$goalio-light-brown;
+
+//Day/week-specific styles
+$extensible-cal-hd-days-background-color: 	transparent;
+$extensible-cal-hd-ad-background-color:		$white-color;
+$extensible-cal-hd-ad-border-color:			$goalio-light-brown;
+$extensible-cal-days-row-border-color:		$goalio-light-brown;
+$extensible-cal-days-times-color: 			darken($goalio-brown, 40);
+$extensible-cal-days-times-border-color:	$extensible-cal-days-row-border-color;
+$extensible-cal-days-times-background-color: lighten($goalio-yellow, 40);
+
+//Month-specific styles
+$extensible-cal-month-hd-background-color:	transparent;
+$extensible-cal-month-background-color:		$white-color;
+
+//Month view week link boxes
+$extensible-cal-month-week-link-color:						darken($goalio-brown, 40);
+$extensible-cal-month-week-link-background-color: 			lighten($goalio-yellow, 40);
+$extensible-cal-month-week-link-over-background-color: 		lighten($goalio-yellow, 20);
+$extensible-cal-month-week-link-border-color:				$goalio-light-brown;
+$extensible-cal-month-week-link-border-top-color:			$extensible-panel-border-color;
+$extensible-cal-month-week-link-first-border-left-color: 	$extensible-cal-hd-border-color;
+
+//Month table cells
+$extensible-cal-month-day-border-color: 			$extensible-cal-hd-border-color;
+$extensible-cal-month-day-over-background-color: 	$white-color;
+
+//Event title cell
+$extensible-cal-month-title-color: 					darken($goalio-brown, 40);
+$extensible-cal-month-title-border-color: 			$extensible-cal-hd-border-color;
+$extensible-cal-month-title-first-border-color:		$extensible-cal-hd-border-separator-color;
+
+//Today's title cell
+$extensible-cal-month-today-color: 					$white-color;
+$extensible-cal-month-today-background-color: 		$base-color;
+
+//Weekend cell
+$extensible-cal-month-weekend-background-color: 	lighten($goalio-yellow, 20);
+
+//Prev Next cell
+$extensible-cal-month-prevnext-color: 				darken($goalio-brown, 10);
+$extensible-cal-month-prevnext-background-color: 	lighten($goalio-brown, 10);
+
+//Event cells
+$extensible-cal-ev-more-color:						$goalio-brown;
+
+//Day view event styles
+$extensible-cal-day-evt-color:						$white-color;
+$extensible-cal-day-evt-link-color:					$extensible-cal-day-evt-color;
+
+//Calendar DD styles
+$extensible-dd-sel-background-color:				$goalio-light-brown;
+$extensible-dd-shim-background-color:				$extensible-dd-sel-background-color;
+$extensible-dd-ghost-color:							$color;
+$extensible-dd-ghost-background-color:				$white-color;
+$extensible-dd-ghost-border-color:					darken($white-color, 20);
+
+//Event resize handle
+$extensible-resize-handle-border-color: 			$goalio-light-brown;
+$extensible-resize-handle-border-opacity-color:		$white-color;
+
+
+//Calendar navigation picker styles
+$extensible-navigation-picker-border-color:						$goalio-light-brown;
+$extensible-navigation-picker-header-background-color:			transparent;
+
+$extensible-navigation-picker-button-color:						$white-color;
+$extensible-navigation-picker-inner-border-color:				transparent;
+
+$extensible-navigation-picker-today-background-color:			$base-color;
+$extensible-navigation-picker-today-border-color:				darken($base-color, 20);
+
+$extensible-navigation-picker-month-border-color:				$extensible-navigation-picker-border-color;
+$extensible-navigation-picker-footer-background-color:			$extensible-navigation-picker-header-background-color;
+
+//Calendar editor window styles
+$extensible-editor-link-color:									darken($goalio-brown, 40);
+
+//Calendar form styles
+$extensible-form-toolbar-border-color:							transparent;
+$extensible-form-toolbar-background-color:						transparent;
+$extensible-form-panel-border-top-color:						$extensible-form-toolbar-border-color;
+$extensible-form-panel-border-bottom-color:						$extensible-form-toolbar-border-color;
+
+//CalendarList styles
+$extensible-cal-list-background-color:							transparent;
+$extensible-cal-list-border-color:								$extensible-form-toolbar-border-color;
+$extensible-cal-list-header-color:								$white-color;
+
+//CalendarList menu styles
+$extensible-cal-list-menu-link-color:							$goalio-brown;
+$extensible-cal-list-menu-selected-color:						$base-color;

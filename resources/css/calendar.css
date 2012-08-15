@@ -1,582 +1,676 @@
-
 /*******************************************
  * 
  * Ext Calendar styles
  *
  ******************************************/
-
 /* -----------------------------------------
  * Ext overrides 
  */
+/* line 11, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-strict .x-webkit .x-small-editor .x-form-field-wrap .x-form-trigger {
-    height: 21px;
-}
+  height: 21px; }
 
 /* -----------------------------------------
  * Shared calendar view containers 
  */
+/* line 18, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-panel-tbar .ext-cal-toolbar {
-    padding: 3px;
-    border-bottom-width: 0 !important;
-}
-.x-panel-tbar .ext-cal-toolbar .x-btn button {
-    /*font-weight: bold;*/
-    color: #555;
-}
-.x-panel-tbar .ext-cal-toolbar .x-toolbar-cell {
-    padding: 0 3px;
-}
+  padding: 3px;
+  border-bottom-width: 0 !important; }
 
+/* line 22, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-panel-tbar .ext-cal-toolbar .x-btn button {
+  /*font-weight: bold;*/
+  color: #555555; }
+
+/* line 26, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-panel-tbar .ext-cal-toolbar .x-toolbar-cell {
+  padding: 0 3px; }
+
+/* line 30, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-overflow-y {
-    overflow-y: scroll !important;
-}
+  overflow-y: scroll !important; }
+
+/* line 33, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ct {
-    position: relative;
-    font-family: helvetica, arial, sans-serif;
-}
+  position: relative;
+  font-family: helvetica, arial, sans-serif; }
+
+/* line 37, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-cal-panel .x-panel-body {
-    background: white !important;
-}
+  background: white !important; }
+
+/* line 41, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-panel-default-framed .x-panel-body .ext-cal-ct,
 .x-panel-default-framed .x-panel-body .ext-evt-edit-form {
-    border-left: 1px solid #99BBE8;
-    border-right: 1px solid #99BBE8;
-}
+  border-left: 1px solid #99bbe8;
+  border-right: 1px solid #99bbe8; }
+
+/* line 45, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-panel-default-framed .x-panel-body .ext-cal-day-header {
-    border: 0;
-}
+  border: 0; }
+
+/* line 48, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ct img {
-    border:0 none;
-}
+  border: 0 none; }
+
+/* line 51, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-inner-ct {
-    height: 100%;
-    line-height: 14px;
-    position: relative;
-    background: #eee;
-    white-space: nowrap;
-}
+  height: 100%;
+  line-height: 14px;
+  position: relative;
+  background: #eeeeee;
+  white-space: nowrap; }
+
+/* line 59, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ct td,
 .ext-cal-mdv td {
-    font-size: 11px;
-}
+  font-size: 11px; }
+
+/* line 62, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-cal-body {
-    /* override the default -noheader style ext uses when there is no panel header */
-    border-top: 0 !important;
-}
+  /* override the default -noheader style ext uses when there is no panel header */
+  border-top: 0 !important; }
 
 /* Window specific rules */
+/* line 68, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-window .x-window-body .x-cal-body {
-    border: 0 !important;
-}
+  border: 0 !important; }
+
+/* line 71, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-window .ext-cal-toolbar {
-    border: 0 !important;
-}
+  border: 0 !important; }
 
 /* Background layout table for week rows */
+/* line 76, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-bg-tbl {
-    height:100%;
-    left:0;
-    position:absolute;
-    table-layout:fixed;
-    top:0;
-    width:100%;
-}
+  height: 100%;
+  left: 0;
+  position: absolute;
+  table-layout: fixed;
+  top: 0;
+  width: 100%; }
+
+/* line 84, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-ie9 .ext-cal-dayview .ext-cal-body-ct .ext-cal-bg-tbl {
-    /* fix scroll position reset bug on IE9 on click */
-    position: relative;
-}
+  /* fix scroll position reset bug on IE9 on click */
+  position: relative; }
 
 /* Shared subheader */
+/* line 90, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-days-tbl {
-    background: #D3E1F1;
-    color: #555;
-    table-layout: fixed;
-    top: 18px;
-    width: 100%;
-    font-size: 12px;
-    line-height: 12px;
-}
+  background: #d3e1f1;
+  color: #555555;
+  table-layout: fixed;
+  top: 18px;
+  width: 100%;
+  font-size: 12px;
+  line-height: 12px; }
+
+/* line 99, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-month-hd .ext-cal-hd-days-tbl {
-    border-top: 1px solid #99BBE8;
-    background: #eee;
-}
+  border-top: 1px solid #99bbe8;
+  background: #eeeeee; }
+
+/* line 103, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-nonav .ext-cal-month-hd .ext-cal-hd-days-tbl {
-    border-top: 0;
-}
+  border-top: 0; }
+
+/* line 106, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-month-hd .ext-cal-hd-day {
-    border-left: 1px solid #C3D9FF;
-}
+  border-left: 1px solid #c3d9ff; }
+
+/* line 109, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-ct {
-    border-bottom: 1px solid #bcf;
-}
+  border-bottom: 1px solid #bbccff; }
+
+/* line 112, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-day {
-    text-align: center;
-    padding: 4px 0;
-    white-space: nowrap;
-}
+  text-align: center;
+  padding: 4px 0;
+  white-space: nowrap; }
 
 /* -----------------------------------------
  * Day/week-specific styles
  */
+/* line 121, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-hd-days-tbl {
-    table-layout: fixed;
-    width: 100%;
-    background-color: #CDDCEF;
-    overflow: hidden;
-    font-size: 11px;
-    line-height: 14px;
-    height: 100%;
-}
+  table-layout: fixed;
+  width: 100%;
+  background-color: #cddcef;
+  overflow: hidden;
+  font-size: 11px;
+  line-height: 14px;
+  height: 100%; }
+
+/* line 130, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-days-td {
-    padding-bottom: 2px;
-}
+  padding-bottom: 2px; }
+
+/* line 133, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-hd-ct {
-    height: 100%;
-}
+  height: 100%; }
+
+/* line 136, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-gutter {
-    width: 50px;
-}
+  width: 50px; }
+
+/* line 139, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-gutter-rt {
-    width: 15px;
-}
+  width: 15px; }
+
+/* line 142, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-win .ext-cal-dayview .ext-cal-gutter-rt {
-    width: 16px;
-}
+  width: 16px; }
+
 /* OSX Lion scrollbars do not take up space in the body so they need special rules */
+/* line 146, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-no-scrollbar .ext-cal-hd-days-td {
-    width: 100%;
-}
+  width: 100%; }
+
+/* line 150, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-no-scrollbar .ext-cal-dayview .ext-cal-gutter-rt,
 .x-no-scrollbar .x-win .ext-cal-dayview .ext-cal-gutter-rt {
-    width: 0;
-}
+  width: 0; }
 
+/* line 154, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-ad {
-    background-color: #fff;
-    font-size: 11px;
-    line-height: 14px;
-    border-color: #e3e9ff #e3e9ff #e3e9ff #e3e9ff;
-    border-style: solid;
-    border-width: 0 1px 1px 0;
-}
+  background-color: white;
+  font-size: 11px;
+  line-height: 14px;
+  border-color: #e3e9ff;
+  border-style: solid;
+  border-width: 0 1px 1px 0; }
+
+/* line 162, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-ad-inner {
-    position: relative;
-    height: 100%;
-}
+  position: relative;
+  height: 100%; }
+
+/* line 166, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-nonav .ext-cal-hd-ad-inner {
-    margin-top: 3px;
-}
+  margin-top: 3px; }
+
+/* line 169, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-dtitle {
-    padding: 8px 1px 2px;
-} 
+  padding: 8px 1px 2px; }
+
+/* line 172, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-ad-bg-tbl {
-    position: absolute;
-    left: 0;
-    table-layout: fixed;
-    width: 100%;
-}
+  position: absolute;
+  left: 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 178, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hd-ad .st-c {
-    padding: 1px 1px 0 1px
-}
+  padding: 1px 1px 0 1px; }
+
+/* line 181, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-body-ct {
-    position: relative;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding: 0;
-    line-height: normal;
-    background: #eee;
-    margin-top: 1px;
-}
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  line-height: normal;
+  background: #eeeeee;
+  margin-top: 1px; }
+
+/* line 190, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-body-ct .ext-cal-bg-tbl {
-    height: 1008px;
-}
+  height: 1008px; }
+
+/* line 193, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-bg-tbl {
-    background-color: #fff;
-    margin-top: -1px;
-    border-bottom: 1px solid #bcf;
-}
+  background-color: white;
+  margin-top: -1px;
+  border-bottom: 1px solid #bbccff; }
+
+/* line 198, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-bg-rows {
-    position: relative;
-    margin-left: 1px;
-}
+  position: relative;
+  margin-left: 1px; }
+
+/* line 202, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-bg-rows-inner {
-    position: absolute;
-    width: 100%;
-}
+  position: absolute;
+  width: 100%; }
+
+/* line 206, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-gecko .ext-cal-dayview .ext-cal-bg-rows-inner {
-    top: -1px; /* row line alignment fix */
-}
+  top: -1px;
+  /* row line alignment fix */ }
+
+/* line 209, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-bg-row {
-    height: 42px;
-}
+  height: 42px; }
+
+/* line 212, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-bg-row-div {
-    border-bottom: 1px dotted #ddd;
-    border-top: 1px solid #ddd;
-    font-size: 1px;
-    height: 21px;
-    margin-bottom: 20px;
-}
+  border-bottom: 1px dotted #dddddd;
+  border-top: 1px solid #dddddd;
+  font-size: 1px;
+  height: 21px;
+  margin-bottom: 20px; }
+
+/* line 219, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-cal-bg-row .no-sep {
-    border-bottom: 0;
-}
+  border-bottom: 0; }
+
+/* line 222, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dayview .ext-row-1 {
-    border-top: 0;
-}
+  border-top: 0; }
+
+/* line 225, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-times {
-    background-color: #f6f9fc;
-    color: #666;
-    padding: 1px 0 0 0;
-    text-align: right;
-    vertical-align: top;
-}
+  background-color: #f6f9fc;
+  color: #666666;
+  padding: 1px 0 0 0;
+  text-align: right;
+  vertical-align: top; }
+
+/* line 232, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-time-inner {
-    height: 42px;
-    border-bottom: 1px solid #ddd;
-    padding-right: 2px
-}
+  height: 42px;
+  border-bottom: 1px solid #dddddd;
+  padding-right: 2px; }
+
+/* line 237, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-col {
-    border-left: 1px solid #ddd;
-    vertical-align: top
-}
+  border-left: 1px solid #dddddd;
+  vertical-align: top; }
+
+/* line 241, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-col-inner {
-    position: relative;
-    cursor: default;
-}
+  position: relative;
+  cursor: default; }
+
+/* line 245, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-col-gutter {
-    position: relative;
-    margin-right: 15px;
-    height: 1008px;
-}
+  position: relative;
+  margin-right: 15px;
+  height: 1008px; }
+
+/* line 251, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-ie .ext-cal-day-col-gutter,
 .x-opera .ext-cal-day-col-gutter {
-    margin-right: 10px;
-}
+  margin-right: 10px; }
+
+/* line 254, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-ie6 .ext-cal-day-col-gutter {
-    zoom: 1
-}
+  zoom: 1; }
 
 /* -----------------------------------------
  * Month-specific styles
  */
+/* line 261, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-monthview .ext-cal-hd-ct {
-    left: 0;
-    top: 0;
-    position: absolute;
-    width: 100%;
-    /*background: #95B8EF;*/
-}
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  /*background: $extensible-cal-month-hd-background-color;*/ }
+
+/* line 268, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-monthview .ext-cal-body-ct {
-    background: #fff;
-    bottom: 0;
-    left: 0;
-    border:0;
-    overflow: hidden;
-    position: absolute;
-    top: 20px;
-    width: 100%;
-}
+  background: white;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  width: 100%; }
+
+/* line 278, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-monthview .ext-cal-noheader .ext-cal-hd-ct {
-    display: none;
-}
+  display: none; }
+
+/* line 281, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-monthview .ext-cal-noheader .ext-cal-body-ct {
-    top: 0;
-}
+  top: 0; }
 
 /* Month view week link boxes */
+/* line 287, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-monthview .ext-cal-week-link,
 .ext-cal-monthview .ext-cal-week-link-hd {
-    width: 20px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background: #EFEFEF;
-    border-top: 1px solid #C3D9FF;
-    /*border-right: 1px solid #C3D9FF;*/
-    font-size: 10px;
-    color: #999;
-    padding: 3px 0 0;
-    text-align: center;
-    cursor: pointer;
-}
+  width: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #efefef;
+  border-top: 1px solid #c3d9ff;
+  /*border-right: 1px solid $extensible-cal-month-week-link-border-color;*/
+  font-size: 10px;
+  color: #999999;
+  padding: 3px 0 0;
+  text-align: center;
+  cursor: pointer; }
+
+/* line 302, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-monthview .ext-cal-week-link-hd {
-    border-top: 1px solid #99BBE8;
-}
+  border-top: 1px solid #99bbe8; }
+
+/* line 305, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-nonav .ext-cal-monthview .ext-cal-week-link-hd {
-    border-top: 0;
-}
+  border-top: 0; }
+
+/* line 308, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-week-links .ext-cal-bg-tbl {
-    left: 20px;
-}
+  left: 20px; }
+
+/* line 312, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-week-links .ext-cal-evt-tbl,
 .ext-cal-week-links .ext-cal-hd-days-tbl {
-    margin-left: 20px;
-}
+  margin-left: 20px; }
+
+/* line 315, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-monthview .ext-week-link-over {
-    background: #E0E7EF;
-}
+  background: #e0e7ef; }
+
+/* line 318, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-week-links .ext-cal-day-first {
-    border-left: 1px solid #C3D9FF;
-}
+  border-left: 1px solid #c3d9ff; }
 
 /* Hide the nav bar if specified */
+/* line 323, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hide-navbar .ext-cal-hd-ct {
-    height: 25px;
-}
+  height: 25px; }
+
+/* line 326, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hide-navbar .ext-cal-body-ct {
-    top: 24px;
-}
+  top: 24px; }
 
 /* Outer wrapping div for week rows */
+/* line 331, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-wk-ct {
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-}
-.ext-cal-monthview .ext-cal-wk-ct {
-    height: 100%;
-}
-/* Background table cell */
-.ext-cal-day {
-    border-left: 1px solid #C3D9FF;
-    cursor: pointer;
-}
-.ext-cal-day-first {
-   border-left: 0;
-}
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100px; }
 
+/* line 338, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-monthview .ext-cal-wk-ct {
+  height: 100%; }
+
+/* Background table cell */
+/* line 342, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-day {
+  border-left: 1px solid #c3d9ff;
+  cursor: pointer; }
+
+/* line 346, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-day-first {
+  border-left: 0; }
+
+/* line 351, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ev,
 .ext-cal-dtitle {
-    cursor: pointer;
-}
+  cursor: pointer; }
+
+/* line 355, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-readonly .ext-cal-day,
 .ext-cal-readonly .ext-cal-dtitle {
-    cursor: default;
-} 
+  cursor: default; }
+
+/* line 358, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-day-over {
-    background: #D1EAEF !important;
-}
+  background: #d1eaef !important; }
+
 /* Event container table */
+/* line 362, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evt-tbl {
-    position:relative;
-    table-layout:fixed;
-    width:100%;
-}
+  position: relative;
+  table-layout: fixed;
+  width: 100%; }
 
 /* Event title cell (includes today, prev & next month) */
+/* line 369, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 td.ext-cal-dtitle {
-    font-family: helvetica, arial, sans-serif;
-    border-top:1px solid #C3D9FF;
-    color: #A7C6DF;
-    line-height:14px;
-    overflow:hidden;
-    text-align:right;
-    font-size: 16px;
-    padding-top: 1px;
-    padding-right: 1px;
-    padding-left: 1px;
-}
+  font-family: helvetica, arial, sans-serif;
+  border-top: 1px solid #c3d9ff;
+  color: #a7c6df;
+  line-height: 14px;
+  overflow: hidden;
+  text-align: right;
+  font-size: 16px;
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-left: 1px; }
+
+/* line 381, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 td.ext-cal-dtitle-first {
-    border-top: 1px solid #BBCCFF;
-}
+  border-top: 1px solid #bbccff; }
+
+/* line 384, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 td.ext-cal-dtitle div {
-    padding: 2px 4px 1px;
-}
+  padding: 2px 4px 1px; }
+
 /* Today's title cell */
+/* line 388, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 td.ext-cal-dtitle-today div {
-    color: #BFA52F;
-    white-space: nowrap;
-}
+  color: #bfa52f;
+  white-space: nowrap; }
+
 /* Today time span */
+/* line 393, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dtitle-time {
-    font-size: 11px;
-}
+  font-size: 11px; }
+
 /* Weekend background cell */
+/* line 397, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-we {
-    background: #EFF9FC;
-}
+  background: #eff9fc; }
+
 /* Today's background cell */
+/* line 401, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-today {
-    background: #FFF4BF;
-}
+  background: #fff4bf; }
+
 /* Prev/next month title cells */
+/* line 406, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dtitle-prev div,
 .ext-cal-dtitle-next div {
-    color: #bbb;
-}
+  color: #efefef; }
+
 /* Prev/next month background cells */
+/* line 411, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-prev,
 .ext-cal-day-next {
-    background: #EFEFEF;
-}
+  background: #efefef; }
+
 /* Event cells */
+/* line 415, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ev {
-    font-family:Verdana,sans-serif;
-    padding:1px 1px 0 2px;
-    vertical-align:top;
-}
+  font-family: Verdana,sans-serif;
+  padding: 1px 1px 0 2px;
+  vertical-align: top; }
+
 /* Event overflow more link */
+/* line 421, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ev-more {
-	text-align: center;
-}
+  text-align: center; }
+
+/* line 425, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ev-more a,
 .ext-cal-ev-more a:visited {
-	color: #369;
-	cursor: pointer;
-}
-/* More view */
-.ext-cal-mvd-tbl {
-	width: 100%;
-	table-layout: fixed;
-}
+  color: #336699;
+  cursor: pointer; }
 
+/* More view */
+/* line 430, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-mvd-tbl {
+  width: 100%;
+  table-layout: fixed; }
+
+/* line 435, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evt {
-    cursor:pointer;
-}
+  cursor: pointer; }
 
 /* Default rounded event div (Gecko/Webkit/W3C) */
-.ext-cal-evr { /* rounded */
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
-    overflow:hidden;
-    padding:1px 1px 1px 5px;
-    white-space:nowrap;
-	text-overflow: ellipsis;
-    border: 0;
-}
+/* line 440, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-evr {
+  /* rounded */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 1px 1px 1px 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 0; }
+
 /* Nested event divs (IE/Opera) */
-.ext-cal-evo { /* outer */
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-right: 0;
-    border-left: 0;
-    margin: 0 1px;
-    cursor: pointer;
-    position: relative;
-}
-.ext-cal-day-col .ext-cal-evo  {
-    height: 100%;
-}
-.ext-cal-evm { /* middle */
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-top: 0;
-    border-bottom: 0;
-    margin: 0 -1px;
-    zoom: 1;
-    padding-left: 3px;
-}
-.ext-cal-evi { /* inner */
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-}
+/* line 451, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-evo {
+  /* outer */
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 0;
+  border-left: 0;
+  margin: 0 1px;
+  cursor: pointer;
+  position: relative; }
+
+/* line 460, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-day-col .ext-cal-evo {
+  height: 100%; }
+
+/* line 463, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-evm {
+  /* middle */
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-top: 0;
+  border-bottom: 0;
+  margin: 0 -1px;
+  zoom: 1;
+  padding-left: 3px; }
+
+/* line 472, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-evi {
+  /* inner */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
 
 /* Day view event styles */
+/* line 479, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-col .ext-cal-evt {
-    position: absolute;
-    overflow: hidden;
-    cursor: default;
-    color: #fff;
-    -moz-user-select: none;
-}
+  position: absolute;
+  overflow: hidden;
+  cursor: default;
+  color: white;
+  -moz-user-select: none; }
+
+/* line 486, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evt dl {
-    margin: 0;
-    border: 0 1px;
-    overflow: hidden;
-    border-width: 0 1px;
-    border-style: solid;
-}
+  margin: 0;
+  border: 0 1px;
+  overflow: hidden;
+  border-width: 0 1px;
+  border-style: solid; }
+
+/* line 493, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-ie6 .ext-cal-evt dl {
-    zoom: 1
-}
+  zoom: 1; }
+
+/* line 496, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evt dd {
-    margin: 0;
-    overflow: hidden;
-    font-size: 11px;
-    text-align: left;
-    word-wrap: break-word;
-}
+  margin: 0;
+  overflow: hidden;
+  font-size: 11px;
+  text-align: left;
+  word-wrap: break-word; }
+
+/* line 503, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evdm {
-    border: 1px solid;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-}
+  border: 1px solid;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 509, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evdm dt {
-    margin-top: 0
-}
+  margin-top: 0; }
+
+/* line 514, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-col .ext-cal-evt a:link,
 .ext-cal-day-col .ext-cal-evt a:visited,
 .ext-cal-day-col .ext-cal-evt a:active {
-    text-decoration: none;
-    color: #fff
-}
+  text-decoration: none;
+  color: white; }
 
+/* line 519, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evb {
-    height: 1px;
-    overflow: hidden;
-    margin: 0 2px;
-    border-top-width: 1px;
-    border-top-style: solid;
-}
+  height: 1px;
+  overflow: hidden;
+  margin: 0 2px;
+  border-top-width: 1px;
+  border-top-style: solid; }
+
+/* line 527, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-opera .ext-cal-evb,
 .x-strict .x-ie .ext-cal-evb {
-    height: 0;
-}
+  height: 0; }
 
 /* Event spanning -- overrides rounded corners */
+/* line 534, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ev-spanboth,
 .ext-cal-ev-spanleft,
 .ext-cal-ev-spanright {
-    -moz-border-radius:0;
-    -webkit-border-radius:0;
-    border-radius:0;
-	position: relative;
-}
-.ext-cal-ev-spanleft {
-    -moz-border-radius-topright:5px;
-    -moz-border-radius-bottomright:5px;
-    -webkit-border-top-right-radius:5px;
-    -webkit-border-bottom-right-radius:5px;
-    border-top-right-radius:5px;
-    border-bottom-right-radius:5px;
-    xpadding-left:5px;
-}
-.ext-cal-ev-spanright {
-    -moz-border-radius-topleft:5px;
-    -moz-border-radius-bottomleft:5px;
-    -webkit-border-top-left-radius:5px;
-    -webkit-border-bottom-left-radius:5px;
-    border-top-left-radius:5px;
-    border-bottom-left-radius:5px;
-    xpadding-right:5px;
-}
-/* IE/ Opera: */
-.ext-cal-ev-spanboth .ext-cal-evm {
-	margin: 0;
-}
-.ext-cal-ev-spanright .ext-cal-evm {
-	margin: 0 0 0 -1px;
-}
-.ext-cal-ev-spanleft .ext-cal-evm {
-	margin: 0 -1px 0 0;
-}
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  position: relative; }
 
+/* line 540, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-ev-spanleft {
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  xpadding-left: 5px; }
+
+/* line 549, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-ev-spanright {
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  xpadding-right: 5px; }
+
+/* IE/ Opera: */
+/* line 559, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-ev-spanboth .ext-cal-evm {
+  margin: 0; }
+
+/* line 562, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-ev-spanright .ext-cal-evm {
+  margin: 0 0 0 -1px; }
+
+/* line 565, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-cal-ev-spanleft .ext-cal-evm {
+  margin: 0 -1px 0 0; }
+
+/* line 570, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-spl,
 .ext-cal-spr {
-/*    background-image:url(../images/default/calendar-sprites.gif);
-    background-repeat:no-repeat;
-    display: inline-block;
-    height: 15px;
-    line-height: 15px;
-    width: 2px;
-	position: absolute;
-	top: 0;*/
-}
+  /*    background-image:url(../images/default/calendar-sprites.gif);
+      background-repeat:no-repeat;
+      display: inline-block;
+      height: 15px;
+      line-height: 15px;
+      width: 2px;
+  	position: absolute;
+  	top: 0;*/ }
+
 /*.ext-cal-spl {
     background-position:-1px -11px;
     left: 0;
@@ -588,399 +682,461 @@ td.ext-cal-dtitle-today div {
 .x-ie .ext-cal-spr {
     right: -5px;
 }*/
-
 /* Generic calendar icons */
+/* line 593, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ic {
-    background-image: url(../images/default/calendar-sprites.gif);
-    background-repeat: no-repeat;
-    display: none;
-    height: 11px;
-    line-height: 11px;
-    margin-left: 4px;
-    width: 12px;
-}
+  background-image: url(../images/default/calendar-sprites.gif);
+  background-repeat: no-repeat;
+  display: none;
+  height: 11px;
+  line-height: 11px;
+  margin-left: 4px;
+  width: 12px; }
+
+/* line 602, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-over .ext-cal-ic {
-    display: inline-block;
-}
+  display: inline-block; }
+
 /* Text-only recurring (dark icon) */
+/* line 606, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ic-rcr {
-    background-position: 0 0;
-}
+  background-position: 0 0; }
+
 /* Block recurring (light icon) */
+/* line 610, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-block .ext-cal-ic-rcr {
-    background-position: -12px 0;
-}
+  background-position: -12px 0; }
+
 /* Text-only reminder (dark icon) */
+/* line 614, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-ic-rem {
-    background-position: -24px 0;
-}
+  background-position: -24px 0; }
+
 /* Block reminder (dark icon) */
+/* line 618, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-block .ext-cal-ic-rem {
-    background-position: -36px 0;
-}
+  background-position: -36px 0; }
 
 /* Calendar DD styles */
+/* line 623, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dd-sel-ct {
-    display: block;
-    z-index: 10;
-    position: absolute;
-    height: 0;
-    left: 0;
-    top: 0;
-    width: 0;
-}
+  display: block;
+  z-index: 10;
+  position: absolute;
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 0; }
+
+/* line 632, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-dd-sel {
-    background-color: #C3D9FF;
-    font-size: 0;
-    line-height: 0;
-    opacity: 0.5;
-    position: absolute;
-}
+  background-color: #C3D9FF;
+  font-size: 0;
+  line-height: 0;
+  opacity: 0.5;
+  position: absolute; }
+
+/* line 639, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-over {
-    opacity: .8;
-}
+  opacity: .8; }
 
 /* Calendar Picker */
+/* line 644, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-calendar-picker {
-    position: relative;
-}
+  position: relative; }
+
+/* line 647, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-gecko .ext-calendar-picker {
-    /* http://stackoverflow.com/questions/5148041/does-firefox-support-position-relative-on-table-elements */
-    display: block;
-}
+  /* http://stackoverflow.com/questions/5148041/does-firefox-support-position-relative-on-table-elements */
+  display: block; }
+
+/* line 651, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-calendar-picker .x-form-text {
-    padding-left: 27px;
-}
+  padding-left: 27px; }
+
+/* line 654, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-calendar-picker .x-combo-list-item {
-    padding-left: 24px;
-}
+  padding-left: 24px; }
+
+/* line 657, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-picker-icon {
-    width: 20px;
-    height: 16px;
-    margin-right: 5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
-    float: left;
-}
+  width: 20px;
+  height: 16px;
+  margin-right: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  float: left; }
+
 /* This is the selected icon that always shows: */
+/* line 667, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-picker-mainicon {
-    float: none;
-    position: absolute;
-    top: 3px;
-    left: 4px;
-}
+  float: none;
+  position: absolute;
+  top: 3px;
+  left: 4px; }
 
 /*
  * Event resize handle
  */
+/* line 677, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-rsz {
-    position: absolute;
-    bottom: 0;
-    height: 5px;
-    line-height: 5px;
-    width: 100%;
-    text-align: center; /* needed for IE quirks mode */
-    cursor: s-resize;
-}
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  line-height: 5px;
+  width: 100%;
+  text-align: center;
+  /* needed for IE quirks mode */
+  cursor: s-resize; }
+
+/* line 687, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-gecko .ext-evt-rsz,
 .x-webkit .ext-evt-rsz {
-    cursor: ns-resize;
-}
-.ext-evt-rsz-h {
-    display: none;
-    border-top:3px double;
-    border-color: white;
-    font-size:0;
-    height:0;
-    line-height:0;
-    margin-left:auto;
-    margin-right:auto;
-    width:20px;
-    opacity:.5;
-    -moz-opacity:.5;
-    -khtml-opacity:.5;
-    /* no opacity for ie by default */
-}
-.ext-evt-over .ext-evt-rsz-h {
-    display: block;
-}
-.x-ie .ext-evt-rsz-h {
-    border-color: #ccc;
-}
-.x-strict .x-ie8 .ext-evt-rsz-h {
-    border-color: #fff;
-    filter:alpha(opacity=50);
-}
+  cursor: ns-resize; }
 
+/* line 690, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-evt-rsz-h {
+  display: none;
+  border-top: 3px double;
+  border-color: white;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20px;
+  opacity: .5;
+  -moz-opacity: .5;
+  -khtml-opacity: .5;
+  /* no opacity for ie by default */ }
+
+/* line 705, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-evt-over .ext-evt-rsz-h {
+  display: block; }
+
+/* line 708, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-ie .ext-evt-rsz-h {
+  border-color: #cccccc; }
+
+/* line 711, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-strict .x-ie8 .ext-evt-rsz-h {
+  border-color: white;
+  filter: alpha(opacity=50); }
+
+/* line 716, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-col .ext-cal-evt {
-    position: absolute;
-}
+  position: absolute; }
+
+/* line 720, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-day-col .ext-cal-evr,
 .ext-cal-day-col .ext-cal-evi {
-    white-space: normal;
-}
+  white-space: normal; }
 
 /* Shim for drag/drop operations on calendar views */
+/* line 725, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-dd-shim {
-    z-index:1000;
-    overflow:hidden;
-    position:absolute;
-    left:0;top:0;
-    opacity:.40;
-    -moz-opacity:.40;
-	-khtml-opacity:.40;
-    filter:alpha(opacity=40);
-	background: #C3D9FF;
-}
+  z-index: 1000;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .40;
+  -moz-opacity: .40;
+  -khtml-opacity: .40;
+  filter: alpha(opacity=40);
+  background: #c3d9ff; }
 
 /* StatusProxy override styles */
+/* line 738, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-dd-ghost-ct {
-	color:#000;
-	font: normal 11px arial, helvetica, sans-serif;
-	border: 1px solid;
-    border-color: #ddd #bbb #bbb #ddd;
-	background-color:#fff;
-	padding:3px;
-	padding-left:20px;
-	white-space: nowrap;
-}
-.ext-dd-ghost-ct .x-dd-drag-ghost{
-	border: 0;
-	background: none;
-	padding: 0;
-	width: 150px;
-}
+  color: black;
+  font: normal 11px arial, helvetica, sans-serif;
+  border: 1px solid;
+  border-color: #dddddd #bbbbbb #bbbbbb #dddddd;
+  background-color: white;
+  padding: 3px;
+  padding-left: 20px;
+  white-space: nowrap; }
+
+/* line 748, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.ext-dd-ghost-ct .x-dd-drag-ghost {
+  border: 0;
+  background: none;
+  padding: 0;
+  width: 150px; }
+
+/* line 754, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-dd-ghost-ct .ext-evt-rsz {
-    display: none;
-}
+  display: none; }
 
 /*******************************************
  * 
  * Calendar navigation picker styles
  * 
  ******************************************/
+/* line 763, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker {
-    border-style: none none solid;
-    border-color: #99BBE8;
-}
-.ext-cal-nav-picker .x-datepicker-header {
-    background: #D3E1F1 url(../images/default/ext/toolbar-bg.gif) repeat-x;
-}
+  border-style: none none solid;
+  border-color: #99bbe8; }
+
+/* line 767, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-nlg .ext-cal-nav-picker .x-datepicker-header {
+  background: #d3e1f1 url(../images/default/ext/toolbar-bg.gif) repeat-x; }
+
+/* line 772, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-month,
 .ext-cal-nav-picker .x-datepicker-prev,
 .ext-cal-nav-picker .x-datepicker-next {
-    background: transparent;
-}
+  background: transparent; }
+
+/* line 775, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-prev a {
-    background-image: url(../images/default/ext/page-prev.gif);
-}
+  background-image: url(../images/default/ext/page-prev.gif); }
+
+/* line 778, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-next a {
-    background-image: url(../images/default/ext/page-next.gif);
-}
+  background-image: url(../images/default/ext/page-next.gif); }
+
+/* line 781, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-month {
-    padding: 3px 0;
-}
+  padding: 3px 0; }
+
+/* line 784, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-month .x-btn-inner {
-    color: #555 !important;
-    font-weight: bold;
-    font-family: arial,tahoma,verdana,helvetica;
-}
+  color: #555555 !important;
+  font-weight: bold;
+  font-family: arial,tahoma,verdana,helvetica; }
+
+/* line 789, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-month .x-btn-split-right {
-    background-image: url(../images/default/ext/button-arrow.gif) !important;
-    background-position: right 4px;
-}
+  background-image: url(../images/default/ext/button-arrow.gif) !important;
+  background-position: right 4px; }
+
+/* line 793, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-inner {
-    border-top: 1px solid #BBCCFF;
-}
+  border-top: 1px solid #bbccff; }
+
+/* line 796, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-inner th {
-    background: none;
-    border-bottom: 1px solid #BBCCFF;
-}
+  background: none;
+  border-bottom: 1px solid #555555; }
+
+/* line 800, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-datepicker-inner .x-datepicker-today a {
-    border-color: #BFA52F;
-    background: #FFF4BF;
-}
+  border-color: #bfa52f;
+  background: #fff4bf; }
+
+/* line 804, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-nav-picker .x-monthpicker {
-    border: 0;
-    border-bottom: 1px solid #99BBE8;
-    top: 0 !important;
-    left: 0 !important;
-}
-.ext-cal-nav-picker .x-datepicker-footer {
-    background: #D3E1F1 url(../images/default/ext/toolbar-bg.gif) repeat-x;
-}
+  border: 0;
+  border-bottom: 1px solid #99bbe8;
+  top: 0 !important;
+  left: 0 !important; }
+
+/* line 810, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-nlg .ext-cal-nav-picker .x-datepicker-footer {
+  background: #d3e1f1 url(../images/default/ext/toolbar-bg.gif) repeat-x; }
 
 /*******************************************
  * 
  * Calendar editor window styles
  *
  ******************************************/
+/* line 819, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-evt-win {
-    z-index: 12100;
-}
+  z-index: 12100; }
+
+/* line 822, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-gecko .ext-cal-event-win .x-window-body .x-form-item {
-    overflow: hidden;
-}
+  overflow: hidden; }
+
+/* line 825, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-event-win .x-window-body .x-panel-body {
-    background: transparent;
-}
+  background: transparent; }
+
+/* line 829, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-event-win a:link,
 .ext-cal-event-win a:visited {
-    color: #15428B;
-}
+  color: #15428b; }
 
 /*******************************************
  * 
  * Calendar form styles
  *
  ******************************************/
+/* line 838, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-edit-form {
-    height: 100%;
-}
+  height: 100%; }
+
+/* line 841, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-edit-form .x-form-item {
-    margin-bottom: 8px;
-}
+  margin-bottom: 8px; }
+
+/* line 844, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-edit-form .x-panel-bbar .x-toolbar {
-    border-bottom: 1px solid #99BBE8;
-}
+  border-bottom: 1px solid #99bbe8; }
+
+/* line 847, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-edit-form .x-panel-header {
-    background: transparent url(../images/default/ext-cal-edit-hd.png) repeat-x;
-    padding: 6px 0 5px 5px !important;
-    font-size: 13px !important;
-    font-family: helvetica, arial, sans-serif;
-    border-top: 0;
-    border-bottom: 1px solid #BBCCFF;
-}
+  padding: 6px 0 5px 5px !important;
+  font-size: 13px !important;
+  font-family: helvetica, arial, sans-serif;
+  border-top: 0;
+  border-bottom: 1px solid #bbccff; }
+
+/* line 855, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-nlg .ext-evt-edit-form .x-panel-header {
+  background: transparent url(../images/default/ext-cal-edit-hd.png) repeat-x; }
+
+/* line 859, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-panel-mc .ext-evt-edit-form .x-panel-header {
-   border-top: 1px solid #99BBE8;
-}
+  border-top: 1px solid #99bbe8; }
+
+/* line 862, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-evt-edit-form .x-toolbar-footer {
-    padding: 10px;
-    background: #DFE8F6;
-}
+  padding: 10px;
+  background: #dfe8f6; }
+
+/* line 866, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-event-win .x-panel-body {
-    padding: 8px 10px 5px;
-}
+  padding: 8px 10px 5px; }
 
 /*******************************************
  * 
  * DateRangeField styles
  *
  ******************************************/
+/* line 875, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-4-0 .ext-dt-range {
-    /* Don't double the bottom margin, use the contained fields' margin.
-     * This was only an issue in Ext 4.0.x */
-    margin-bottom: 0 !important;
-}
+  /* Don't double the bottom margin, use the contained fields' margin.
+   * This was only an issue in Ext 4.0.x */
+  margin-bottom: 0 !important; }
+
+/* line 880, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-dt-range .x-form-cb-wrap {
-    white-space: nowrap;
-}
+  white-space: nowrap; }
 
 /*******************************************
  * 
  * ContextMenu styles
  *
  ******************************************/
+/* line 889, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .extensible-cal-icon-evt-edit {
-    background-image:url(../images/default/silk/calendar_edit.png) !important;
-}
+  background-image: url(../images/default/silk/calendar_edit.png) !important; }
+
+/* line 892, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .extensible-cal-icon-evt-del {
-    background-image:url(../images/default/silk/cross.png) !important;
-}
+  background-image: url(../images/default/silk/cross.png) !important; }
+
+/* line 895, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .extensible-cal-icon-evt-move {
-    background-image:url(../images/default/silk/date_go.png) !important;
-}
+  background-image: url(../images/default/silk/date_go.png) !important; }
+
+/* line 898, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .extensible-cal-icon-evt-copy {
-    background-image:url(../images/default/silk/date_copy.png) !important;
-}
+  background-image: url(../images/default/silk/date_copy.png) !important; }
 
 /*******************************************
  * 
  * CalendarList styles
  *
  ******************************************/
+/* line 907, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list {
-    border-bottom: 1px solid #99BBE8;
-}
+  border-bottom: 1px solid #99bbe8; }
+
+/* line 910, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list .x-panel-body {
-    padding: 4px 2px 2px;
-    background: #fff !important;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 12px;
-}
+  padding: 4px 2px 2px;
+  background: white !important;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px; }
+
+/* line 916, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list .x-panel-header-text {
-    color: #555;
-}
+  color: #555555; }
+
+/* line 919, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list li {
-    position: relative;
-    margin-bottom: 2px;
-    cursor: pointer;
-}
+  position: relative;
+  margin-bottom: 2px;
+  cursor: pointer; }
+
+/* line 924, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list li em {
-    background-image: url(../images/default/calendar-sprites.gif);
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: absolute;
-    height: 11px;
-    line-height: 11px;
-    width: 14px;
-    top: 2px;
-    background-position: -60px 0;
-    right: 0;
-}
+  background-image: url(../images/default/calendar-sprites.gif);
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  height: 11px;
+  line-height: 11px;
+  width: 14px;
+  top: 2px;
+  background-position: -60px 0;
+  right: 0; }
+
+/* line 936, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list .hover em {
-    background-position: -48px 0;
-    xright: 2px;
-    opacity:.7;
-    -moz-opacity:.7;
-}
+  background-position: -48px 0;
+  xright: 2px;
+  opacity: .7;
+  -moz-opacity: .7; }
+
+/* line 942, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list .ext-cal-evr {
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    border-radius:3px;
-}
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+/* line 949, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .ext-cal-hidden,
-/* IE/Opera: */
 .ext-cal-hidden .ext-cal-evi {
-    background-image: url(../images/default/ext-cal-list-hidden.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    opacity:.5;
-    -moz-opacity:.5;
-}
+  background-image: url(../images/default/ext-cal-list-hidden.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  opacity: .5;
+  -moz-opacity: .5; }
+
+/* line 956, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-ie .ext-cal-hidden {
-    filter: alpha(opacity=50);
-    zoom: 1;
-}
-.x-ie .ext-cal-hidden .ext-cal-evi  {
-    /* the following works around an IE bug that won't apply the opacity filter correctly without dimensions */
-    width: 100%;
-    height: 100%;
-}
+  filter: alpha(opacity=50);
+  zoom: 1; }
+
+/* line 960, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-ie .ext-cal-hidden .ext-cal-evi {
+  /* the following works around an IE bug that won't apply the opacity filter correctly without dimensions */
+  width: 100%;
+  height: 100%; }
+
+/* line 965, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-ie6 .ext-cal-hidden .ext-cal-evi {
-    background-image: url(../images/default/ext-cal-list-hidden-ie6.png);
-}
+  background-image: url(../images/default/ext-cal-list-hidden-ie6.png); }
+
+/* line 968, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .extensible-cal-icon-cal-show {
-    background-image:url(../images/default/silk/calendar_view_month.png) !important;
-}
+  background-image: url(../images/default/silk/calendar_view_month.png) !important; }
+
+/* line 971, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .extensible-cal-icon-cal-colors {
-    background-image:url(../images/default/silk/color_wheel.png) !important;
-}
+  background-image: url(../images/default/silk/color_wheel.png) !important; }
 
 /*******************************************
  * 
  * CalendarList menu styles
  *
  ******************************************/
+/* line 980, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list-menu .x-color-picker {
-    padding-left: 32px;
-    width: 180px;            
-}
+  padding-left: 32px;
+  width: 180px; }
+
+/* line 984, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
 .x-calendar-list-menu .x-color-picker a {
-    border-color: #f0f0f0;
-}
-.x-color-picker a:hover, 
+  border-color: #f0f0f0; }
+
+/* line 988, ../themes/stylesheets/ext4/default/widgets/_calendar.scss */
+.x-color-picker a:hover,
 .x-color-picker a.x-color-picker-selected {
-    border-color: #8BB8F3;
-}
+  border-color: #8bb8f3; }

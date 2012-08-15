@@ -2,49 +2,58 @@
  * Extensible recurrence control styles
  *
  ******************************************/
+/* line 5, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-inner-ct {
-    padding: 8px 0 0 15px;
-    border-left: 1px solid #ddd;
-}
+  padding: 8px 0 0 15px;
+  border-left: 1px solid #dddddd; }
+
+/* line 9, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .x-panel-default-framed .extensible-recur-inner-ct {
-    /* inside a framed panel with a blue bg */
-    border-left: 1px solid #A7C5DF;
-}
+  /* inside a framed panel with a blue bg */
+  border-left: 1px solid #a7c5df; }
+
+/* line 13, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-inner-ct label {
-    margin-top: 2px !important;
-}
+  margin-top: 2px !important; }
+
+/* line 16, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-weekly label {
-    /* checkbox alignment is slightly different */
-    margin-top: 1px !important;
-    margin-right: 5px !important;
-}
+  /* checkbox alignment is slightly different */
+  margin-top: 1px !important;
+  margin-right: 5px !important; }
+
+/* line 21, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-weekly .x-form-item {
-    margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
+
+/* line 29, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-frequency,
 .extensible-recur-duration,
 .extensible-recur-interval,
 .extensible-recur-monthly,
 .extensible-recur-weekly,
 .extensible-recur-yearly {
-    margin-bottom: 0 !important;
-}
+  margin-bottom: 0 !important; }
+
+/* line 32, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-edit-options .x-btn {
-    margin: 0 5px;
-}
+  margin: 0 5px; }
+
 /* Recurrence edit options icon classes */
+/* line 36, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-edit-options .recur-edit-single {
-    width: 50px !important;
-    margin: 0 auto;
-    background: url(../images/default/recur-edit-options.png) -100px -3px !important;
-}
+  width: 50px !important;
+  margin: 0 auto;
+  background: url(../images/default/recur-edit-options.png) -100px -3px !important; }
+
+/* line 41, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-edit-options .recur-edit-future {
-    width: 50px !important;
-    margin: 0 auto;
-    background: url(../images/default/recur-edit-options.png) -50px -3px !important;
-}
+  width: 50px !important;
+  margin: 0 auto;
+  background: url(../images/default/recur-edit-options.png) -50px -3px !important; }
+
+/* line 46, ../themes/stylesheets/ext4/default/widgets/_recurrence.scss */
 .extensible-recur-edit-options .recur-edit-all {
-    width: 50px !important;
-    margin: 0 auto;
-    background: url(../images/default/recur-edit-options.png) 0 -3px !important;
-}
+  width: 50px !important;
+  margin: 0 auto;
+  background: url(../images/default/recur-edit-options.png) 0 -3px !important; }

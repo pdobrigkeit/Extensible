@@ -170,8 +170,8 @@ Extensible.Config = {
                 }
         }
         
-        me.includeStylesheet(me.extJsRoot + 'resources/css/ext-all.css');
-        me.includeStylesheet(me.extensibleRoot + 'resources/css/extensible-all.css' + cacheBuster);
+        me.includeStylesheet('http://zf2.goalio.dev/js/ExtJs/resources/css/ext-all-goalio.css');
+        me.includeStylesheet(me.extensibleRoot + 'resources/css/extensible-all-goalio.css' + cacheBuster);
         me.includeStylesheet(me.extensibleRoot + 'examples/examples.css?_dc=' + Extensible.version);
         
         me.includeScript(me.extJsRoot + 'ext' + suffix + '.js');

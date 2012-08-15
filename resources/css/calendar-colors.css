@@ -7,11 +7,11 @@
  * This is the text color for all-day and span events.
  * Changing this will affect all events across all calendars.
  */
+/* line 12, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-evr,
 .ext-cal-evi,
 .ext-cal-evt dl {
-    color: #fff;
-}
+  color: white; }
 
 /*========================================================
  * The following block defines the default event styles 
@@ -19,16 +19,18 @@
  * of the rules necessary to style a specific calendar.
  */
 /* The text color for non-all-day events that have no background color */
+/* line 25, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-default,
 .x-cal-default-x .ext-cal-evb,
 .ext-ie .x-cal-default-ad,
 .ext-opera .x-cal-default-ad {
-    color: #668CB3;
-}
+  color: #668cb3; }
+
 /* 
  * The background color for all-day and span events.  Sorry for all the rules,
  * they are mostly to accommodate browsers that do not handle border-radius.
  */
+/* line 38, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-default,
 .ext-dd-drag-proxy .x-cal-default,
 .x-cal-default-ad,
@@ -36,19 +38,19 @@
 .x-cal-default .ext-cal-picker-icon,
 .x-cal-default-x dl,
 .x-calendar-palette em .x-cal-default {
-    background-color: #668CB3;
-}
+  background-color: #668cb3; }
+
 /*
  * Yet more rules for IE/Opera
  */
+/* line 45, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-default-ad,
 .x-cal-default-ad .ext-cal-evm {
-    border-color: #668CB3;
-}
+  border-color: #668cb3; }
+
 /*  END of default event styles
  * ========================================================
  */
-
 /*
  * The block above defines the 3 rules required to style one calendar.
  * The following blocks are the exact same rules, but with different 
@@ -60,12 +62,14 @@
  * calendar store.
  */
 /* ===== x-cal-1 ===== */
+/* line 66, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-1,
 .x-cal-1-x .ext-cal-evb,
 .ext-ie .x-cal-1-ad,
 .ext-opera .x-cal-1-ad {
-    color: #fa7166;
-}
+  color: #fa7166; }
+
+/* line 75, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-1,
 .ext-dd-drag-proxy .x-cal-1,
 .x-cal-1-ad,
@@ -73,20 +77,22 @@
 .x-cal-1 .ext-cal-picker-icon,
 .x-cal-1-x dl,
 .x-calendar-palette .x-cal-1 span {
-    background-color: #fa7166;
-}
+  background-color: #fa7166; }
+
+/* line 79, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-1-ad,
 .x-cal-1-ad .ext-cal-evm {
-    border-color: #fa7166;
-}
+  border-color: #fa7166; }
 
 /* ===== x-cal-2 ===== */
+/* line 87, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-2,
 .x-cal-2-x .ext-cal-evb,
 .ext-ie .x-cal-2-ad,
 .ext-opera .x-cal-2-ad {
-    color: #cf2424;
-}
+  color: #cf2424; }
+
+/* line 96, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-2,
 .ext-dd-drag-proxy .x-cal-2,
 .x-cal-2-ad,
@@ -94,20 +100,22 @@
 .x-cal-2 .ext-cal-picker-icon,
 .x-cal-2-x dl,
 .x-calendar-palette .x-cal-2 span {
-    background-color: #cf2424;
-}
+  background-color: #cf2424; }
+
+/* line 100, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-2-ad,
 .x-cal-2-ad .ext-cal-evm {
-    border-color: #cf2424;
-}
+  border-color: #cf2424; }
 
 /* ===== x-cal-3 ===== */
+/* line 108, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-3,
 .x-cal-3-x .ext-cal-evb,
 .ext-ie .x-cal-3-ad,
 .ext-opera .x-cal-3-ad {
-    color: #a01a1a;
-}
+  color: #a01a1a; }
+
+/* line 117, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-3,
 .ext-dd-drag-proxy .x-cal-3,
 .x-cal-3-ad,
@@ -115,20 +123,22 @@
 .x-cal-3 .ext-cal-picker-icon,
 .x-cal-3-x dl,
 .x-calendar-palette .x-cal-3 span {
-    background-color: #a01a1a;
-}
+  background-color: #a01a1a; }
+
+/* line 121, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-3-ad,
 .x-cal-3-ad .ext-cal-evm {
-    border-color: #a01a1a;
-}
+  border-color: #a01a1a; }
 
 /* ===== x-cal-4 ===== */
+/* line 129, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-4,
 .x-cal-4-x .ext-cal-evb,
 .ext-ie .x-cal-4-ad,
 .ext-opera .x-cal-4-ad {
-    color: #7e3838;
-}
+  color: #7e3838; }
+
+/* line 138, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-4,
 .ext-dd-drag-proxy .x-cal-4,
 .x-cal-4-ad,
@@ -136,20 +146,22 @@
 .x-cal-4 .ext-cal-picker-icon,
 .x-cal-4-x dl,
 .x-calendar-palette .x-cal-4 span {
-    background-color: #7e3838;
-}
+  background-color: #7e3838; }
+
+/* line 142, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-4-ad,
 .x-cal-4-ad .ext-cal-evm {
-    border-color: #7e3838;
-}
+  border-color: #7e3838; }
 
 /* ===== x-cal-5 ===== */
+/* line 150, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-5,
 .x-cal-5-x .ext-cal-evb,
 .ext-ie .x-cal-5-ad,
 .ext-opera .x-cal-5-ad {
-    color: #ca7609;
-}
+  color: #ca7609; }
+
+/* line 159, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-5,
 .ext-dd-drag-proxy .x-cal-5,
 .x-cal-5-ad,
@@ -157,20 +169,22 @@
 .x-cal-5 .ext-cal-picker-icon,
 .x-cal-5-x dl,
 .x-calendar-palette .x-cal-5 span {
-    background-color: #ca7609;
-}
+  background-color: #ca7609; }
+
+/* line 163, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-5-ad,
 .x-cal-5-ad .ext-cal-evm {
-    border-color: #ca7609;
-}
+  border-color: #ca7609; }
 
 /* ===== x-cal-6 ===== */
+/* line 171, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-6,
 .x-cal-6-x .ext-cal-evb,
 .ext-ie .x-cal-6-ad,
 .ext-opera .x-cal-6-ad {
-    color: #f88015;
-}
+  color: #f88015; }
+
+/* line 180, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-6,
 .ext-dd-drag-proxy .x-cal-6,
 .x-cal-6-ad,
@@ -178,20 +192,22 @@
 .x-cal-6 .ext-cal-picker-icon,
 .x-cal-6-x dl,
 .x-calendar-palette .x-cal-6 span {
-    background-color: #f88015;
-}
+  background-color: #f88015; }
+
+/* line 184, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-6-ad,
 .x-cal-6-ad .ext-cal-evm {
-    border-color: #f88015;
-}
+  border-color: #f88015; }
 
 /* ===== x-cal-7 ===== */
+/* line 192, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-7,
 .x-cal-7-x .ext-cal-evb,
 .ext-ie .x-cal-7-ad,
 .ext-opera .x-cal-7-ad {
-    color: #eda12a;
-}
+  color: #eda12a; }
+
+/* line 201, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-7,
 .ext-dd-drag-proxy .x-cal-7,
 .x-cal-7-ad,
@@ -199,20 +215,22 @@
 .x-cal-7 .ext-cal-picker-icon,
 .x-cal-7-x dl,
 .x-calendar-palette .x-cal-7 span {
-    background-color: #eda12a;
-}
+  background-color: #eda12a; }
+
+/* line 205, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-7-ad,
 .x-cal-7-ad .ext-cal-evm {
-    border-color: #eda12a;
-}
+  border-color: #eda12a; }
 
 /* ===== x-cal-8 ===== */
+/* line 213, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-8,
 .x-cal-8-x .ext-cal-evb,
 .ext-ie .x-cal-8-ad,
 .ext-opera .x-cal-8-ad {
-    color: #d5b816;
-}
+  color: #d5b816; }
+
+/* line 222, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-8,
 .ext-dd-drag-proxy .x-cal-8,
 .x-cal-8-ad,
@@ -220,20 +238,22 @@
 .x-cal-8 .ext-cal-picker-icon,
 .x-cal-8-x dl,
 .x-calendar-palette .x-cal-8 span {
-    background-color: #d5b816;
-}
+  background-color: #d5b816; }
+
+/* line 226, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-8-ad,
 .x-cal-8-ad .ext-cal-evm {
-    border-color: #d5b816;
-}
+  border-color: #d5b816; }
 
 /* ===== x-cal-9 ===== */
+/* line 234, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-9,
 .x-cal-9-x .ext-cal-evb,
 .ext-ie .x-cal-9-ad,
 .ext-opera .x-cal-9-ad {
-    color: #e281ca;
-}
+  color: #e281ca; }
+
+/* line 243, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-9,
 .ext-dd-drag-proxy .x-cal-9,
 .x-cal-9-ad,
@@ -241,20 +261,22 @@
 .x-cal-9 .ext-cal-picker-icon,
 .x-cal-9-x dl,
 .x-calendar-palette .x-cal-9 span {
-    background-color: #e281ca;
-}
+  background-color: #e281ca; }
+
+/* line 247, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-9-ad,
 .x-cal-9-ad .ext-cal-evm {
-    border-color: #e281ca;
-}
+  border-color: #e281ca; }
 
 /* ===== x-cal-10 ===== */
+/* line 255, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-10,
 .x-cal-10-x .ext-cal-evb,
 .ext-ie .x-cal-10-ad,
 .ext-opera .x-cal-10-ad {
-    color: #bf53a4;
-}
+  color: #bf53a4; }
+
+/* line 264, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-10,
 .ext-dd-drag-proxy .x-cal-10,
 .x-cal-10-ad,
@@ -262,20 +284,22 @@
 .x-cal-10 .ext-cal-picker-icon,
 .x-cal-10-x dl,
 .x-calendar-palette .x-cal-10 span {
-    background-color: #bf53a4;
-}
+  background-color: #bf53a4; }
+
+/* line 268, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-10-ad,
 .x-cal-10-ad .ext-cal-evm {
-    border-color: #bf53a4;
-}
+  border-color: #bf53a4; }
 
 /* ===== x-cal-11 ===== */
+/* line 276, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-11,
 .x-cal-11-x .ext-cal-evb,
 .ext-ie .x-cal-11-ad,
 .ext-opera .x-cal-11-ad {
-    color: #9d3283;
-}
+  color: #9d3283; }
+
+/* line 285, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-11,
 .ext-dd-drag-proxy .x-cal-11,
 .x-cal-11-ad,
@@ -283,20 +307,22 @@
 .x-cal-11 .ext-cal-picker-icon,
 .x-cal-11-x dl,
 .x-calendar-palette .x-cal-11 span {
-    background-color: #9d3283;
-}
+  background-color: #9d3283; }
+
+/* line 289, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-11-ad,
 .x-cal-11-ad .ext-cal-evm {
-    border-color: #9d3283;
-}
+  border-color: #9d3283; }
 
 /* ===== x-cal-12 ===== */
+/* line 297, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-12,
 .x-cal-12-x .ext-cal-evb,
 .ext-ie .x-cal-12-ad,
 .ext-opera .x-cal-12-ad {
-    color: #7a0f60;
-}
+  color: #7a0f60; }
+
+/* line 306, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-12,
 .ext-dd-drag-proxy .x-cal-12,
 .x-cal-12-ad,
@@ -304,20 +330,22 @@
 .x-cal-12 .ext-cal-picker-icon,
 .x-cal-12-x dl,
 .x-calendar-palette .x-cal-12 span {
-    background-color: #7a0f60;
-}
+  background-color: #7a0f60; }
+
+/* line 310, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-12-ad,
 .x-cal-12-ad .ext-cal-evm {
-    border-color: #7a0f60;
-}
+  border-color: #7a0f60; }
 
 /* ===== x-cal-13 ===== */
+/* line 318, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-13,
 .x-cal-13-x .ext-cal-evb,
 .ext-ie .x-cal-13-ad,
 .ext-opera .x-cal-13-ad {
-    color: #542382;
-}
+  color: #542382; }
+
+/* line 327, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-13,
 .ext-dd-drag-proxy .x-cal-13,
 .x-cal-13-ad,
@@ -325,20 +353,22 @@
 .x-cal-13 .ext-cal-picker-icon,
 .x-cal-13-x dl,
 .x-calendar-palette .x-cal-13 span {
-    background-color: #542382;
-}
+  background-color: #542382; }
+
+/* line 331, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-13-ad,
 .x-cal-13-ad .ext-cal-evm {
-    border-color: #542382;
-}
+  border-color: #542382; }
 
 /* ===== x-cal-14 ===== */
+/* line 339, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-14,
 .x-cal-14-x .ext-cal-evb,
 .ext-ie .x-cal-14-ad,
 .ext-opera .x-cal-14-ad {
-    color: #7742a9;
-}
+  color: #7742a9; }
+
+/* line 348, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-14,
 .ext-dd-drag-proxy .x-cal-14,
 .x-cal-14-ad,
@@ -346,20 +376,22 @@
 .x-cal-14 .ext-cal-picker-icon,
 .x-cal-14-x dl,
 .x-calendar-palette .x-cal-14 span {
-    background-color: #7742a9;
-}
+  background-color: #7742a9; }
+
+/* line 352, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-14-ad,
 .x-cal-14-ad .ext-cal-evm {
-    border-color: #7742a9;
-}
+  border-color: #7742a9; }
 
 /* ===== x-cal-15 ===== */
+/* line 360, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-15,
 .x-cal-15-x .ext-cal-evb,
 .ext-ie .x-cal-15-ad,
 .ext-opera .x-cal-15-ad {
-    color: #8763ca;
-}
+  color: #8763ca; }
+
+/* line 369, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-15,
 .ext-dd-drag-proxy .x-cal-15,
 .x-cal-15-ad,
@@ -367,20 +399,22 @@
 .x-cal-15 .ext-cal-picker-icon,
 .x-cal-15-x dl,
 .x-calendar-palette .x-cal-15 span {
-    background-color: #8763ca;
-}
+  background-color: #8763ca; }
+
+/* line 373, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-15-ad,
 .x-cal-15-ad .ext-cal-evm {
-    border-color: #8763ca;
-}
+  border-color: #8763ca; }
 
 /* ===== x-cal-16 ===== */
+/* line 381, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-16,
 .x-cal-16-x .ext-cal-evb,
 .ext-ie .x-cal-16-ad,
 .ext-opera .x-cal-16-ad {
-    color: #b586e2;
-}
+  color: #b586e2; }
+
+/* line 390, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-16,
 .ext-dd-drag-proxy .x-cal-16,
 .x-cal-16-ad,
@@ -388,20 +422,22 @@
 .x-cal-16 .ext-cal-picker-icon,
 .x-cal-16-x dl,
 .x-calendar-palette .x-cal-16 span {
-    background-color: #b586e2;
-}
+  background-color: #b586e2; }
+
+/* line 394, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-16-ad,
 .x-cal-16-ad .ext-cal-evm {
-    border-color: #b586e2;
-}
+  border-color: #b586e2; }
 
 /* ===== x-cal-17 ===== */
+/* line 402, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-17,
 .x-cal-17-x .ext-cal-evb,
 .ext-ie .x-cal-17-ad,
 .ext-opera .x-cal-17-ad {
-    color: #7399f9;
-}
+  color: #7399f9; }
+
+/* line 411, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-17,
 .ext-dd-drag-proxy .x-cal-17,
 .x-cal-17-ad,
@@ -409,20 +445,22 @@
 .x-cal-17 .ext-cal-picker-icon,
 .x-cal-17-x dl,
 .x-calendar-palette .x-cal-17 span {
-    background-color: #7399f9;
-}
+  background-color: #7399f9; }
+
+/* line 415, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-17-ad,
 .x-cal-17-ad .ext-cal-evm {
-    border-color: #7399f9;
-}
+  border-color: #7399f9; }
 
 /* ===== x-cal-18 ===== */
+/* line 423, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-18,
 .x-cal-18-x .ext-cal-evb,
 .ext-ie .x-cal-18-ad,
 .ext-opera .x-cal-18-ad {
-    color: #4e79e6;
-}
+  color: #4e79e6; }
+
+/* line 432, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-18,
 .ext-dd-drag-proxy .x-cal-18,
 .x-cal-18-ad,
@@ -430,20 +468,22 @@
 .x-cal-18 .ext-cal-picker-icon,
 .x-cal-18-x dl,
 .x-calendar-palette .x-cal-18 span {
-    background-color: #4e79e6;
-}
+  background-color: #4e79e6; }
+
+/* line 436, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-18-ad,
 .x-cal-18-ad .ext-cal-evm {
-    border-color: #4e79e6;
-}
+  border-color: #4e79e6; }
 
 /* ===== x-cal-19 ===== */
+/* line 444, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-19,
 .x-cal-19-x .ext-cal-evb,
 .ext-ie .x-cal-19-ad,
 .ext-opera .x-cal-19-ad {
-    color: #2951b9;
-}
+  color: #2951b9; }
+
+/* line 453, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-19,
 .ext-dd-drag-proxy .x-cal-19,
 .x-cal-19-ad,
@@ -451,20 +491,22 @@
 .x-cal-19 .ext-cal-picker-icon,
 .x-cal-19-x dl,
 .x-calendar-palette .x-cal-19 span {
-    background-color: #2951b9;
-}
+  background-color: #2951b9; }
+
+/* line 457, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-19-ad,
 .x-cal-19-ad .ext-cal-evm {
-    border-color: #2951b9;
-}
+  border-color: #2951b9; }
 
 /* ===== x-cal-20 ===== */
+/* line 465, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-20,
 .x-cal-20-x .ext-cal-evb,
 .ext-ie .x-cal-20-ad,
 .ext-opera .x-cal-20-ad {
-    color: #133897;
-}
+  color: #133897; }
+
+/* line 474, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-20,
 .ext-dd-drag-proxy .x-cal-20,
 .x-cal-20-ad,
@@ -472,20 +514,22 @@
 .x-cal-20 .ext-cal-picker-icon,
 .x-cal-20-x dl,
 .x-calendar-palette .x-cal-20 span {
-    background-color: #133897;
-}
+  background-color: #133897; }
+
+/* line 478, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-20-ad,
 .x-cal-20-ad .ext-cal-evm {
-    border-color: #133897;
-}
+  border-color: #133897; }
 
 /* ===== x-cal-21 ===== */
+/* line 486, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-21,
 .x-cal-21-x .ext-cal-evb,
 .ext-ie .x-cal-21-ad,
 .ext-opera .x-cal-21-ad {
-    color: #1a5173;
-}
+  color: #1a5173; }
+
+/* line 495, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-21,
 .ext-dd-drag-proxy .x-cal-21,
 .x-cal-21-ad,
@@ -493,20 +537,22 @@
 .x-cal-21 .ext-cal-picker-icon,
 .x-cal-21-x dl,
 .x-calendar-palette .x-cal-21 span {
-    background-color: #1a5173;
-}
+  background-color: #1a5173; }
+
+/* line 499, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-21-ad,
 .x-cal-21-ad .ext-cal-evm {
-    border-color: #1a5173;
-}
+  border-color: #1a5173; }
 
 /* ===== x-cal-22 ===== */
+/* line 507, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-22,
 .x-cal-22-x .ext-cal-evb,
 .ext-ie .x-cal-22-ad,
 .ext-opera .x-cal-22-ad {
-    color: #1a699c;
-}
+  color: #1a699c; }
+
+/* line 516, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-22,
 .ext-dd-drag-proxy .x-cal-22,
 .x-cal-22-ad,
@@ -514,20 +560,22 @@
 .x-cal-22 .ext-cal-picker-icon,
 .x-cal-22-x dl,
 .x-calendar-palette .x-cal-22 span {
-    background-color: #1a699c;
-}
+  background-color: #1a699c; }
+
+/* line 520, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-22-ad,
 .x-cal-22-ad .ext-cal-evm {
-    border-color: #1a699c;
-}
+  border-color: #1a699c; }
 
 /* ===== x-cal-23 ===== */
+/* line 528, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-23,
 .x-cal-23-x .ext-cal-evb,
 .ext-ie .x-cal-23-ad,
 .ext-opera .x-cal-23-ad {
-    color: #3694b7;
-}
+  color: #3694b7; }
+
+/* line 537, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-23,
 .ext-dd-drag-proxy .x-cal-23,
 .x-cal-23-ad,
@@ -535,20 +583,22 @@
 .x-cal-23 .ext-cal-picker-icon,
 .x-cal-23-x dl,
 .x-calendar-palette .x-cal-23 span {
-    background-color: #3694b7;
-}
+  background-color: #3694b7; }
+
+/* line 541, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-23-ad,
 .x-cal-23-ad .ext-cal-evm {
-    border-color: #3694b7;
-}
+  border-color: #3694b7; }
 
 /* ===== x-cal-24 ===== */
+/* line 549, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-24,
 .x-cal-24-x .ext-cal-evb,
 .ext-ie .x-cal-24-ad,
 .ext-opera .x-cal-24-ad {
-    color: #64b9d9;
-}
+  color: #64b9d9; }
+
+/* line 558, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-24,
 .ext-dd-drag-proxy .x-cal-24,
 .x-cal-24-ad,
@@ -556,20 +606,22 @@
 .x-cal-24 .ext-cal-picker-icon,
 .x-cal-24-x dl,
 .x-calendar-palette .x-cal-24 span {
-    background-color: #64b9d9;
-}
+  background-color: #64b9d9; }
+
+/* line 562, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-24-ad,
 .x-cal-24-ad .ext-cal-evm {
-    border-color: #64b9d9;
-}
+  border-color: #64b9d9; }
 
 /* ===== x-cal-25 ===== */
+/* line 570, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-25,
 .x-cal-25-x .ext-cal-evb,
 .ext-ie .x-cal-25-ad,
 .ext-opera .x-cal-25-ad {
-    color: #a8c67b;
-}
+  color: #a8c67b; }
+
+/* line 579, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-25,
 .ext-dd-drag-proxy .x-cal-25,
 .x-cal-25-ad,
@@ -577,20 +629,22 @@
 .x-cal-25 .ext-cal-picker-icon,
 .x-cal-25-x dl,
 .x-calendar-palette .x-cal-25 span {
-    background-color: #a8c67b;
-}
+  background-color: #a8c67b; }
+
+/* line 583, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-25-ad,
 .x-cal-25-ad .ext-cal-evm {
-    border-color: #a8c67b;
-}
+  border-color: #a8c67b; }
 
 /* ===== x-cal-26 ===== */
+/* line 591, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-26,
 .x-cal-26-x .ext-cal-evb,
 .ext-ie .x-cal-26-ad,
 .ext-opera .x-cal-26-ad {
-    color: #83ad47;
-}
+  color: #83ad47; }
+
+/* line 600, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-26,
 .ext-dd-drag-proxy .x-cal-26,
 .x-cal-26-ad,
@@ -598,20 +652,22 @@
 .x-cal-26 .ext-cal-picker-icon,
 .x-cal-26-x dl,
 .x-calendar-palette .x-cal-26 span {
-    background-color: #83ad47;
-}
+  background-color: #83ad47; }
+
+/* line 604, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-26-ad,
 .x-cal-26-ad .ext-cal-evm {
-    border-color: #83ad47;
-}
+  border-color: #83ad47; }
 
 /* ===== x-cal-27 ===== */
+/* line 612, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-27,
 .x-cal-27-x .ext-cal-evb,
 .ext-ie .x-cal-27-ad,
 .ext-opera .x-cal-27-ad {
-    color: #2e8f0c;
-}
+  color: #2e8f0c; }
+
+/* line 621, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-27,
 .ext-dd-drag-proxy .x-cal-27,
 .x-cal-27-ad,
@@ -619,20 +675,22 @@
 .x-cal-27 .ext-cal-picker-icon,
 .x-cal-27-x dl,
 .x-calendar-palette .x-cal-27 span {
-    background-color: #2e8f0c;
-}
+  background-color: #2e8f0c; }
+
+/* line 625, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-27-ad,
 .x-cal-27-ad .ext-cal-evm {
-    border-color: #2e8f0c;
-}
+  border-color: #2e8f0c; }
 
 /* ===== x-cal-28 ===== */
+/* line 633, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-28,
 .x-cal-28-x .ext-cal-evb,
 .ext-ie .x-cal-28-ad,
 .ext-opera .x-cal-28-ad {
-    color: #176413;
-}
+  color: #176413; }
+
+/* line 642, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-28,
 .ext-dd-drag-proxy .x-cal-28,
 .x-cal-28-ad,
@@ -640,20 +698,22 @@
 .x-cal-28 .ext-cal-picker-icon,
 .x-cal-28-x dl,
 .x-calendar-palette .x-cal-28 span {
-    background-color: #176413;
-}
+  background-color: #176413; }
+
+/* line 646, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-28-ad,
 .x-cal-28-ad .ext-cal-evm {
-    border-color: #176413;
-}
+  border-color: #176413; }
 
 /* ===== x-cal-29 ===== */
+/* line 654, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-29,
 .x-cal-29-x .ext-cal-evb,
 .ext-ie .x-cal-29-ad,
 .ext-opera .x-cal-29-ad {
-    color: #0f4c30;
-}
+  color: #0f4c30; }
+
+/* line 663, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-29,
 .ext-dd-drag-proxy .x-cal-29,
 .x-cal-29-ad,
@@ -661,20 +721,22 @@
 .x-cal-29 .ext-cal-picker-icon,
 .x-cal-29-x dl,
 .x-calendar-palette .x-cal-29 span {
-    background-color: #0f4c30;
-}
+  background-color: #0f4c30; }
+
+/* line 667, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-29-ad,
 .x-cal-29-ad .ext-cal-evm {
-    border-color: #0f4c30;
-}
+  border-color: #0f4c30; }
 
 /* ===== x-cal-30 ===== */
+/* line 675, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-30,
 .x-cal-30-x .ext-cal-evb,
 .ext-ie .x-cal-30-ad,
 .ext-opera .x-cal-30-ad {
-    color: #386651;
-}
+  color: #386651; }
+
+/* line 684, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-30,
 .ext-dd-drag-proxy .x-cal-30,
 .x-cal-30-ad,
@@ -682,20 +744,22 @@
 .x-cal-30 .ext-cal-picker-icon,
 .x-cal-30-x dl,
 .x-calendar-palette .x-cal-30 span {
-    background-color: #386651;
-}
+  background-color: #386651; }
+
+/* line 688, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-30-ad,
 .x-cal-30-ad .ext-cal-evm {
-    border-color: #386651;
-}
+  border-color: #386651; }
 
 /* ===== x-cal-31 ===== */
+/* line 696, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-31,
 .x-cal-31-x .ext-cal-evb,
 .ext-ie .x-cal-31-ad,
 .ext-opera .x-cal-31-ad {
-    color: #3ea987;
-}
+  color: #3ea987; }
+
+/* line 705, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-31,
 .ext-dd-drag-proxy .x-cal-31,
 .x-cal-31-ad,
@@ -703,20 +767,22 @@
 .x-cal-31 .ext-cal-picker-icon,
 .x-cal-31-x dl,
 .x-calendar-palette .x-cal-31 span {
-    background-color: #3ea987;
-}
+  background-color: #3ea987; }
+
+/* line 709, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-31-ad,
 .x-cal-31-ad .ext-cal-evm {
-    border-color: #3ea987;
-}
+  border-color: #3ea987; }
 
 /* ===== x-cal-32 ===== */
+/* line 717, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-32,
 .x-cal-32-x .ext-cal-evb,
 .ext-ie .x-cal-32-ad,
 .ext-opera .x-cal-32-ad {
-    color: #7bc3b5;
-}
+  color: #7bc3b5; }
+
+/* line 726, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .ext-cal-day-col .x-cal-32,
 .ext-dd-drag-proxy .x-cal-32,
 .x-cal-32-ad,
@@ -724,9 +790,9 @@
 .x-cal-32 .ext-cal-picker-icon,
 .x-cal-32-x dl,
 .x-calendar-palette .x-cal-32 span {
-    background-color: #7bc3b5;
-}
+  background-color: #7bc3b5; }
+
+/* line 730, ../themes/stylesheets/ext4/default/widgets/_calendar-colors.scss */
 .x-cal-32-ad,
 .x-cal-32-ad .ext-cal-evm {
-    border-color: #7bc3b5;
-}
+  border-color: #7bc3b5; }
