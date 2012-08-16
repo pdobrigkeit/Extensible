@@ -107,7 +107,7 @@
     border-left: 1px solid $extensible-cal-hd-border-color;
 }
 .ext-cal-hd-ct {
-    border-bottom: 1px solid $extensible-cal-hd-border-separator-color;
+    border-bottom: 1px solid $extensible-panel-border-color;
 }
 .ext-cal-hd-day {
     text-align: center;
@@ -193,7 +193,7 @@
 .ext-cal-dayview .ext-cal-bg-tbl {
     background-color: $extensible-cal-hd-ad-background-color;
     margin-top: -1px;
-    border-bottom: 1px solid $extensible-cal-hd-border-separator-color;
+    border-bottom: 1px solid $extensible-cal-month-title-first-border-color;
 }
 .ext-cal-dayview .ext-cal-bg-rows {
     position: relative;
@@ -404,7 +404,7 @@ td.ext-cal-dtitle-today div {
 /* Prev/next month title cells */
 .ext-cal-dtitle-prev div,
 .ext-cal-dtitle-next div {
-    color: $extensible-cal-month-prevnext-background-color;
+    color: $extensible-cal-month-prevnext-color;
 }
 /* Prev/next month background cells */
 .ext-cal-day-prev,
